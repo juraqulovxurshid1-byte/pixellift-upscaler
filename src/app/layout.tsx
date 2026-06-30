@@ -14,15 +14,18 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={inter.className}>
         {children}
+        
+        <script 
+        src="https://quge5.com/88/tag.min.js" 
+        data-zone="254901" 
+        async data-cfasync="false">
+          
+        </script>
       </body>
     </html>
   );
